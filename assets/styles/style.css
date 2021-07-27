@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sorts+Mill+Goudy&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+header {
+    display: inline;
+}
+.wrap {
+    width: 100%;
+}
+.wrapgambar{
+    width: 10%;
+    float: left;
+    padding: 10px 15px;
+}
+.title {
+    width: 75%;
+    font-family: 'Dancing Script', sans-serif;
+    float: left;
+}
+.judul {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 50px;
+}
+.name {
+    font-family: 'Dancing Script', sans-serif;
+}
+#logo {
+    max-width: 95%;
+}
+#gambarakun {
+    width: 40px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+.akun {
+    text-align: center;
+}
+.login {
+    width: 15%;
+    float: left;}
+ul {
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li {
+    text-align: center
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav {
+    background-color: black;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+#content {
+    float: left;
+    width: 75%;
+}
+.profile img {
+    width: 150px;
+    border-radius: 30px;
+}
+.profile header {
+    text-align: center;
+}
+th {
+    text-align: left;
+}
+.konten {
+    text-align: center;
+}
+.library {
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.img-library{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.box-library {
+    width: 24%;
+    margin: 5px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+    float: left;
+}
+footer {
+    padding: 0px 20px;
+    color: white;
+    background-color: black;
+    margin: 0 10px;
+}
+.img-footer {
+    width: 20px;
+}
+.foot a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.foot li {
+    display: inline;
+    list-style-type: none;
+}
+.foot {
+    position: sticky;
+    display: block;
+    float: left;
+    width: 80%;
+}
+.foot td{
+    padding: 0px 5px;
+}
+.fter {
+    margin: 0 auto;
+}
+button {
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+    font-weight: bold;
+    
+}
+.letter_button {
+    padding: 8px 20px;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    border: solid 2px #1b1b1b;
+}
+.isiregis{
+    width: 35%;
+    padding: 12px;
+    margin: 0px 0px 20px 0px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.logo {
+    width: 90px;
+    margin-top: -20px;
+}
+.name-mar {
+    margin: 0px;
+    padding: 0px 100px;
+    width: 20%;
+    float: right;
+}
+.text-input-wrapper {
+    border:3px solid black;
+    background-color:white;
+}
+
+.text-input-wrapper input {
+    border:none;
+    outline:none;
+    padding:0 0;
+    margin:0 0;
+    width: 60%;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+}
+
+.text-input-wrapper span {
+    cursor:pointer;
+    color:black;
+    font-weight:bold;
+    visibility:hidden;
+}
+.cari {
+    margin: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 4px 15px;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    /* font-size: 18px; */
+}
+.cari:hover {
+    opacity: 0.8;
+    font-weight: bold;
+    
+}
+.copy {
+    text-align: center;
+}
+.cadangan {
+    display: none;
+}
+nav .drop-down {
+    list-style: none;
+    overflow: hidden;   
+    height: auto;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+nav .drop-down.closed {
+    height: 43px;
+}
+
+nav .drop-down li {
+    border-bottom: 5px solid black;
+}
+nav .drop-down li a {
+    display: block;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+}
+.drop-down li a:hover {
+    background-color: black;
+    color: grey;
+}
+
+nav .drop-down li:first-child a:after {
+    content: "\25BC";
+    float: right;
+    margin-left: -30px;
+    margin-right: 5px;
+}
+.utama {
+    display: inline-block;
+}
+@media screen and (min-width:968px) and (max-width:1024px) {
+    .wrapgambar {
+        width:17%;
+    }
+    .box-library {
+        width: 23.5%;
+    }
+    .title {
+        width: 70%;
+    }
+    .judul {
+        margin-left: -10px;
+    }
+    #logo {
+        max-width: 85%;
+    }
+    .login {
+        width: 13%; 
+    }
+    .name-mar {
+        padding: 0px 50px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:968px) {
+	body {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .wrapgambar {
+        width: 15%;
+    }
+    .title {
+        width: 70%;
+    }
+    .judul {
+        font-size: 40px;
+    }
+    #gambarakun{
+        width: 30px;
+    }
+    .isiregis{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 425px) and (max-width:768px) {
+	body {
+        font-size: 16px;
+        text-align: justify;
+    }
+    #content {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .wrapgambar {
+        width: 15%;
+    }
+    .title {
+        width: 70%;
+    }
+    .judul {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+    #gambarakun{
+        width: 25px;
+        padding-top: 20px;
+    }
+    .box-library {
+        width: 23%;
+        margin: 7px;
+    }
+    .isiregis{
+        width: 50%;
+    }
+    .name-mar {
+        padding: 0px 20px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width:426px) {
+	body {
+        font-size: 16px;
+        text-align: justify;
+    }
+    #content {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .wrapgambar {
+        width: 100%;
+        float: none;
+    }
+    #logo {
+        height: auto;
+		max-width: 25%;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+    }
+    .title {
+        width: 100%;
+    }
+    .judul {
+        font-size: 30px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    #gambarakun{
+        width: 25px;
+        padding-top: 20px;
+    }
+    .isiregis{
+        width: 100%;
+    }
+    .login {
+        display: none;
+    }
+    .foot {
+        position: sticky;
+        display: block;
+        float: right;
+        width: 100%;
+    }
+    .name-mar {
+        margin: 0px;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .box-library {
+        width: 100%;
+    }
+    .img-library{
+        width: 25%;
+    }
+    .cadangan {
+        display: block;
+    }
+    .utama {
+        display: none;
+    }
+}
+

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerita_ku</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <div class="wrapgambar"><img src="assets/image/logo.png" id="logo"></div>
+            <div class="title"><p class="judul">Cerita_Ku</p></div>
+            <div class="login">
+                <ul>
+                    <li><a href=""><img src="assets/image/user.png" id="gambarakun"></a></li>
+                    <li><a href="">Akun</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+        <nav class="utama">
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#library">Library</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+            </ul>    
+        </nav>
+        <!-- Cadangan -->
+        </div>
+        <div class="cadangan">
+        <nav>
+            <ul class="drop-down closed">
+                <li><a href="#" class="nav-button">Menu</a></li>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#library">Library</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+            <article id="beranda">
+                <div>
+                    <h2>Welcome To <span class="name">Ceritak_ku</span></h2>
+                    <p>
+                        Hai teman-teman ku tercinta *__*<br>
+                        Namaku <strong>Tri Nuryatul Lestari</strong> , kalian bisa memanggilku <strong>Tri/Tari</strong>. 
+                        Jangan panggil aku Author, Admin, Thor, Min apalagi Mimin! Aku 98line.
+                        <br><br>
+                        Aku adalah seseorang yang mencoba menyalurkan kegemaran akan membaca dan menulis pada website ini.
+                        Cerita diwebsite ini adalah murni dari pemikiran ku. Jika ada kesamaan nama tokoh, tempat, dan alur
+                        cerita mohon dimaklumi ya :(
+                        <br><br>
+                        Terima kasih sudah memberikan waktu kalian untuk sekedar memberi komentar dan juga menyapaku, baik itu
+                        berupa pujian, kritik maupun saran.
+                        Berkat kalian semua semangat menulisku semakin bertambah dari waktu kewaktu. 
+                        Semoga tulisan ini memberikan kalian pengetahuan dan wawasan yang baru...
+                        <br>
+                        <br>
+                        Bagi kalian yang ingin lebih mudah menjelajah di <span class="name">Ceritak_ku</span>, silakan lihat menu diatas.<br>
+                        Disana ada ‘Beranda, Library, Forum juga About me’.
+                        <br>
+                        <br>
+                        <dfn>Hope you guys like what I write @__@</dfn>
+                        <br>
+                        <br>
+                        
+                        Thanks.. *_*
+                        <br>
+                        <br>
+                        <br>
+                        _Tri N. L_
+                    </p>
+                </div>
+            </article>
+            <article id="library">
+                <h2 class="konten">Library</h2>
+                <div class="library">
+                    <div class="box-library">
+                        <img src="assets/image/chapter.png" class="img-library">
+                        <h4>Chapter</h4>
+                        <p>Library ini terdiri atas cerita-cerita yang memiliki bagian cerita lebih dari satu.</p>
+                        <button class="letter_button"><span>Selengkapnya</span></button>
+                    </div>
+                    <div class="box-library">
+                        <img src="assets/image/oneshoot.png" class="img-library">
+                        <h4>Oneshoot</h4>
+                        <p>Library ini terdiri atas cerita-cerita yang hanya memiliki satu bagian cerita.</p>
+                        <button class="letter_button"><span>Selengkapnya</span></button>
+                    </div>
+                    <div class="box-library">
+                        <img src="assets/image/complete.png" class="img-library">
+                        <h4>Completed</h4>
+                        <p>Library ini terdiri atas cerita-cerita yang telah selesai proses penulisannya.</p>
+                        <button class="letter_button"><span>Selengkapnya</span></button>
+                    </div>
+                    <div class="box-library">
+                        <img src="assets/image/ongoing.png" class="img-library">
+                        <h4>On Going</h4>
+                        <p>Library ini terdiri atas cerita-cerita yang masih dalam proses penulisan.</p>
+                        <button class="letter_button"><span>Selengkapnya</span></button>
+                    </div>
+                </div>
+            </article>
+            <article id="forum">
+                <h2 class="konten">Forum - Komentar</h2>
+                <p>Berikan Kritik, Saran, dan Komentar melalui form berikut. Semoga aku mampu memperbaiki dan meningkatkan kemampuan menulisku.
+                    Kalian juga bisa menyampaikan saran dan opini kalian untuk karya-karya ku yang selanjutnya, semoga aku bisa mewujudkannya...<br>
+                    Terima kasih *__*
+                </p>
+                <div>
+                    <form>
+                        <div class="container">
+                            <label><b>Nama Lengkap</b></label><br>
+                            <input type="text" placeholder="Tulis Nama Lengkap" name="" class="isiregis"><br>
+                            <label><b>Email</b></label><br>
+                            <input type="Email" placeholder="Tulis Email" name="" class="isiregis"><br>
+                            <label><b>Username</b></label><br>
+                            <input type="text" placeholder="Enter Username" name="" class="isiregis"><br>
+                            <label><b>Kritik, Saran, dan Komentar</b></label><br>
+                            <!-- <div class="komen"></div> -->
+                            <textarea rows="5" cols="20" placeholder="Tulis Kritik, Saran, dan Komentar" name="" class="isiregis"></textarea><br>
+                            <!-- </div> -->
+                            <button type="button" onclick="terimainput()" value="" class="letter_button">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </article>
+            <article id="aboutme">
+                <h2 class="konten">About Me</h2>
+                <p>
+                    Hallo.. Hallo<br>
+                    Hai, Tri Nuryatul Here.. I'm just a girl that love imagination more. 
+                    I have a lot of fantasies. And I love to write and read.<br>
+                    Ok. If you want to know all about me this is it :
+                </p>
+                <p><strong>MY BIOGRAPHY</strong></p>
+                <table>
+                        <tr>
+                            <th>Nama Lengkap</th>
+                            <td>Tri Nuryatul Lestari</td>
+                        </tr>
+                        <tr>
+                            <th>Nama Panggilan</th>
+                            <td>Tri, Tari, Trik, Mak Tri, pohon +_+</td>
+                        </tr>
+                        <tr>
+                            <th>TTL</th>
+                            <td>Blitar, 23 Maret 1998</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Ds. Ngembul, Kec. Binangun, Kab. Blitar</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>tri.lestari2388@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Hp</th>
+                            <td>+6281232723839</td>
+                        </tr>
+                        <tr>
+                            <th>Facebook</th>
+                            <td>Tri Nuryatul Lestari</td>
+                        </tr>
+                        <tr>
+                            <th>Instagram</th>
+                            <td>triiinl_</td>
+                        </tr>
+                        <tr>
+                            <th>Twitter</th>
+                            <td>trinl_</td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td>Woman (of course)</td>
+                        </tr>
+                        <tr>
+                            <th>Fav. Color</th>
+                            <td>Blacl, white, and red</td>
+                        </tr>
+                        <tr>
+                            <th>Hobby</th>
+                            <td>Read, write, Volley ball, Badminton, Watching movies, Watching Korean Drama hehe</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p>
+                        I like watching movie science-fiction, fantasy, mystery, romance, and I didn’t like horror I’m so scared.
+                        Movies that I liked are Geostorm, World War, After, Battleship, Overdrive, FF and others.
+                        <br>
+                        <br>
+                        Oh. this is very very important.<br>
+                        I'm a fans girl of Chanyeol EXO and Kyuhyun Super Junior wkwkwk
+                    </p>
+            </article>
+        </div>
+        <aside>
+            <article class="profile">
+                <header>
+                    <h2>Owner</h2>
+                        <figure>
+                            <img src="assets/image/owner.jpg">
+                            <figcaption><strong>trinl_</strong></figcaption>
+                        </figure>
+                        <div style="text-align: center">
+                            <q><dfn>Nothing is easy in this world, but nothing is impossible. So, don't waste your time wasted, time cannot be repeated</dfn></q>
+                        </div>
+                </header>
+                <section>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Tri Nuryatul Lestari</td>
+                        </tr>
+                        <tr>
+                            <th>TTL</th>
+                            <td>Blitar, 23 Maret 1998</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Ds. Ngembul, Kec. Binangun, Kab. Blitar</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>tri.lestari2388@gmail.com</td>
+                        </tr>
+                            <tr>
+                            <th>Hp</th>
+                            <td>+6281232723839</td>
+                        </tr>
+                    </table>
+                </section>
+                <br>
+                <br>
+                <div>
+                    <h3>Searching Story???</h3>
+                    <form id="search-form" action="/search" method="get">
+                        <span class="text-input-wrapper">
+                            <input type="text" name="cari"><span title="Clear">&times;</span>
+                        </span>
+                        <button type="button" onclick="" value="" class="cari">Cari</button>
+                    </form>
+        
+                </div>
+            </article>
+        </aside>
+    </main>
+    <footer style="background-color: black">
+            <div class="name-mar">
+                <h2 class="name">Cerita_Ku</h2>
+                <img src="assets/image/logoo.png" class="logo">
+            </div>
+        <div>
+            <ul class="foot">
+                <li>
+                    <table>
+                        <tr>
+                            <td><img src="assets/image/facebook.png" class="img-footer"></td>
+                            <td>Cerita Ku</td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    <table>
+                        <tr>
+                            <td><img src="assets/image/instagram.png" class="img-footer"></td>
+                            <td>cerita_ku</td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    <table>
+                        <tr>
+                            <td><img src="assets/image/email.png" class="img-footer"></td>
+                            <td>ceritaku2388@gmail.com</td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    <table>
+                        <tr>
+                            <td><img src="assets/image/whatsapp.png" class="img-footer"></td>
+                            <td>081150021000</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="copy">
+            <p>&#169<span class="name">Cerita_ku</span> - 2020</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="assets/ceritaku.js"></script>
+</body>
+</html>
